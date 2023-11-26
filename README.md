@@ -1,8 +1,22 @@
-# React + Vite
+# SkyTracker Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+Created a Weather Website using ReactJS + JavaScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Used Vite + React + JavaScript.
+- Used SCSS for styling.
+
+## Getting Started
+
+- Installation steps
+    - 'npm install' to install all the modules.
+    - run 'npm run dev' in the terminal to run the project.
+      ### Note
+        -If any case scss does't work try using 'npm install -D sass' in terminal.
+
+
+![Recording 2023-11-26 at 12 08 11](https://github.com/Ritik1431/weather-app/assets/94741846/2fc36e93-65a3-4aa2-b1de-7d12808ca00c)
+
+
