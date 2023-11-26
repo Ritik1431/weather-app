@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container1{
+    display: flex;
+    gap: 2rem;
+    height: 100%;
+    background-color: black;
+    box-shadow: 0 2px 4px black;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    align-items: center;
+    position: relative;
+    .left{
+        display: flex;
+        flex: 70%;
+        align-items: center;
+        margin-left: 1.5rem;
+        margin-top: 0.5rem;
+        color: white;
+        .name{
+            font-size: 2rem;
+            margin-right: 3rem;
+            padding-bottom: 0.4rem;
+        }
+        .location{
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+    }
+    .right{
+        display: flex;
+        flex: 5%;
+
+        gap: 1rem;
+        margin-left: 4rem;
+        height: 30px;
+
+        .login{
+            font-size: 1rem;
+            border: 1px solid white;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            padding: 2px 2px;
+        }
+        .signup{
+            font-size: 1rem;
+            border: none;
+            border: 1px solid white;
+            background-color: black;
+            color: white;
+            padding: 2px 2px;
+            border-radius: 5px;
+        }
+        .login:hover{
+            transition: all 0.5s ease;
+            background-color:darken($color: white, $amount: 5%);
+            cursor: pointer;
+        }
+        .signup:hover{
+            transition: all 0.5s ease;
+            background-color:darken($color: white, $amount: 5%);
+            cursor: pointer;
+        }
+
+    }
+}
