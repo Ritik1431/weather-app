@@ -12,7 +12,7 @@ function Login() {
     }
     return (
         <div id='signin'>
-            <GoogleLogin
+            <GoogleLogin 
                 clientId={clientId}
                 buttonText='Login'
                 onSuccess={onSuccess}
