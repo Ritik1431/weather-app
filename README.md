@@ -7,6 +7,7 @@ Created a Weather Website using ReactJS + JavaScript.
 ## Features
 - Used Vite + React + JavaScript.
 - Used SCSS for styling.
+- Google authentication.
 
 ## Getting Started
 
@@ -17,6 +18,7 @@ Created a Weather Website using ReactJS + JavaScript.
         -If any case scss does't work try using 'npm install -D sass' in terminal.
 
 
-![Recording 2023-11-26 at 12 08 11](https://github.com/Ritik1431/weather-app/assets/94741846/2fc36e93-65a3-4aa2-b1de-7d12808ca00c)
+![image](https://github.com/Ritik1431/weather-app/assets/94741846/df388f70-a82f-4476-ba86-bab00c336a7c)
+
 
 
